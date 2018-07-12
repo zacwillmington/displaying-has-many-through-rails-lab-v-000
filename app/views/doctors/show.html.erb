@@ -1,4 +1,5 @@
 <% @doctor.appointments.each do |appointment| %>
+    <% binding.pry %>
     <%= appointment.appointment_datetime %>
 <% end %>
 <% @doctor.patients.each do |patient| %>
