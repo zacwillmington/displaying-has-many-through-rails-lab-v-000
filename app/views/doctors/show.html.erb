@@ -1,5 +1,4 @@
 <% @doctor.appointments.each do |appointment| %>
-    <% binding.pry %>
     <%= appointment.parse_appointment_datetime %>
 <% end %>
 <% @doctor.patients.each do |patient| %>
